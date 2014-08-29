@@ -1,0 +1,88 @@
+<script>
+$(document).ready(function() {
+    
+    setInterval(function() {
+    
+        $(".slideshow-1 > div:gt(0)").hide();
+         
+          $('.slideshow-1 > div:first')
+            .delay(0)
+            .fadeOut(2000)
+            .next()
+            .delay(0)
+            .fadeIn(1000)
+            .end()
+            .appendTo('.slideshow-1');
+
+
+        $(".slideshow-2 > div:gt(0)").hide();
+        
+        
+          $('.slideshow-2 > div:first')
+            .delay(1000)
+            .fadeOut(2000)
+            .next()
+            .delay(1000)
+            .fadeIn(2000)
+            .end()
+            .appendTo('.slideshow-2');
+
+
+        $(".slideshow-3 > div:gt(0)").hide();
+        
+        
+          $('.slideshow-3 > div:first')
+            .delay(2000)
+            .fadeOut(2000)
+            .next()
+            .delay(2000)
+            .fadeIn(2000)
+            .end()
+            .appendTo('.slideshow-3');
+        
+        
+        $(".slideshow-4 > div:gt(0)").hide();
+        
+        
+          $('.slideshow-4 > div:first')
+            .delay(2000)
+            .fadeOut(2000)
+            .next()
+            .delay(2000)
+            .fadeIn(2000)
+            .end()
+            .appendTo('.slideshow-4');
+            
+        $(".slideshow-5 > div:gt(0)").hide();
+        
+        
+          $('.slideshow-5 > div:first')
+            .delay(2000)
+            .fadeOut(2000)
+            .next()
+            .delay(2000)
+            .fadeIn(2000)
+            .end()
+            .appendTo('.slideshow-5');
+        
+        $(".slideshow-6 > div:gt(0)").hide();
+        
+        
+          $('.slideshow-6 > div:first')
+            .delay(2000)
+            .fadeOut(2000)
+            .next()
+            .delay(2000)
+            .fadeIn(2000)
+            .end()
+            .appendTo('.slideshow-6');
+            
+    
+    },5000);
+
+
+});
+
+</script>
+    
+    <!-- END SLIDESHOW SCRIPT -->
